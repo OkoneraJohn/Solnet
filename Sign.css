@@ -1,0 +1,122 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  html,
+body {
+  height: 100px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  
+  background-image: url('images (7).jpg');
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+h1{
+    color: blue;
+    position: relative;
+    left: 50px;
+}
+.form-signin input{
+    height: 30px;
+    width: 300px;
+    position: relative;
+    left: 10px;
+    border-radius: 20px;
+}
+.btn {
+    color:white;
+    background-color: blue;
+    height: 30px;
+    width: 100%;
+    border: blue;
+    border-radius: 20px;
+}
+img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 90px;
+    opacity: 0.5;
+}
+
+
+.form-signin label{
+    color: beige;
+  
+}
+.email{
+    position: relative;
+    bottom: 55px;
+    left: 10px;
+}
+.pwd{
+    position: relative;
+    bottom: 65px;
+    left: 10px;
+}
+
+
+.box{
+    color: beige;
+    position: relative;
+    left: 100px;
+    
+}
+h4{
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+}
+.form-signin input:hover{
+  color: blue;
+  border-color: blue;
+  
+}
+p{
+  color: white;
+  
+}
+.link{
+  color: blue;
+}

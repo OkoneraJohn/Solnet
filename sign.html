@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" href="Layer 1.png"  class="up">
+    <link rel="stylesheet" href="Sign.css">
+</head>
+<body>
+   
+    <main class="form-signin">
+        <form>
+          <img class="img" src="Layer 1.png" alt="" >
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="abc@example.com">
+            <label for="floatingInput" class="email">Email address </label>
+          </div>
+          <br>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="myInput" placeholder="Password">
+            <label for="floatingPassword" class="pwd">Password</label>
+            <input type="checkbox" onclick="myfunction()" value="FakePSW"><h4>Show Password</h4>
+          </div>
+          <p>If you don't have an account <a href="Create.html" class="link">Create Account</a></p>
+          <button class="btn" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted" style="color: burlywood;">&copy; Solnet Fashionz</p>
+        </form>
+      </main>
+      <script src="sign.js"></script>
+</body>
+</html>
